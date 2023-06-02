@@ -1,0 +1,240 @@
+2023-06-02 18:19:14,959 - [testlogin.py-->line:52] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 18:19:14,960 - [testlogin.py-->line:53] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 42, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 18:19:14,991 - [testlogin.py-->line:62] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 18:20:08,010 - [testlogin.py-->line:52] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 18:20:08,010 - [testlogin.py-->line:53] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 42, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 18:20:08,028 - [testlogin.py-->line:62] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 18:39:57,308 - [testlogin.py-->line:52] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 18:39:57,308 - [testlogin.py-->line:53] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 42, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\PyCharm 2023.1.1\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 18:39:57,333 - [testlogin.py-->line:62] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 18:45:37,752 - [testlogin.py-->line:52] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 18:45:37,753 - [testlogin.py-->line:53] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 42, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\PyCharm 2023.1.1\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 18:45:37,773 - [testlogin.py-->line:62] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 19:15:50,399 - [testlogin.py-->line:52] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 19:15:50,399 - [testlogin.py-->line:53] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 42, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\PyCharm 2023.1.1\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 19:15:50,418 - [testlogin.py-->line:62] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 19:25:51,405 - [testlogin.py-->line:54] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 19:25:51,405 - [testlogin.py-->line:55] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "package1/Testcase/testlogin.py", line 44, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 19:25:51,430 - [testlogin.py-->line:64] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 19:26:13,948 - [testlogin.py-->line:54] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 19:26:13,949 - [testlogin.py-->line:55] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 44, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 19:26:13,967 - [testlogin.py-->line:64] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 19:27:12,284 - [testlogin.py-->line:54] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 19:27:12,284 - [testlogin.py-->line:55] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 44, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 19:27:12,304 - [testlogin.py-->line:64] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 19:28:12,072 - [testlogin.py-->line:54] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 19:28:12,072 - [testlogin.py-->line:55] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 44, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 19:28:12,092 - [testlogin.py-->line:64] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 19:29:17,160 - [testlogin.py-->line:54] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 19:29:17,160 - [testlogin.py-->line:55] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 44, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 19:29:17,185 - [testlogin.py-->line:64] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 19:51:09,973 - [testlogin.py-->line:54] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 19:51:09,973 - [testlogin.py-->line:55] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 44, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 19:51:09,994 - [testlogin.py-->line:64] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 19:57:05,099 - [testlogin.py-->line:54] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 19:57:05,099 - [testlogin.py-->line:55] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 44, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 19:57:05,132 - [testlogin.py-->line:64] - INFO: 错误的账号密码:用例执行成功
+2023-06-02 20:31:06,277 - [testlogin.py-->line:54] - ERROR: 正确的账号密码:用例执行失败
+2023-06-02 20:31:06,278 - [testlogin.py-->line:55] - ERROR: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+Traceback (most recent call last):
+  File "D:\PycharmProjects\package1\Testcase\testlogin.py", line 44, in test_login
+    self.assertEqual(case["expected"], res)
+  File "D:\software\work\anaconda\lib\unittest\case.py", line 845, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\software\work\anaconda\lib\unittest\case.py", line 1226, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\software\work\anaconda\lib\unittest\case.py", line 675, in fail
+    raise self.failureException(msg)
+AssertionError: '登录成功' != '实际结果：登录成功!'
+- 登录成功
++ 实际结果：登录成功!
+
+2023-06-02 20:31:06,311 - [testlogin.py-->line:64] - INFO: 错误的账号密码:用例执行成功
