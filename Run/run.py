@@ -1,6 +1,9 @@
 import sys
 sys.path.append(r"D:\PycharmProjects\unittest_demo")
 sys.path.append(r"D:\software\work\anaconda\envs\pytorch\Lib")
+sys.path.append(r"D:\software\work\anaconda\envs\pytorch\Lib\site-packages")
+sys.path.append(r"C:\Users\XDJ\AppData\Roaming\Python\Python36\site-packages")
+
 import unittest
 
 from Common.handle_path import CASE_DIR,REPORT_DIR
