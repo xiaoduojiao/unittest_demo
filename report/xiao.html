@@ -156,11 +156,11 @@
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">开始时间</button>
-                <span class="text-dark">2023-06-03 16:54:06</span>
+                <span class="text-dark">2023-06-07 22:23:32</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">执行时间</button>
-                <span class="text-dark">0.08 S</span>
+                <span class="text-dark">0.04 S</span>
             </li>
             <li class="list-group-item">
                 <button type="button" class="btn btn-success">用例总数</button>
@@ -255,8 +255,8 @@
                     <td>1</td>
                     <td class="TestLogin">TestLogin</td>
                     <td>test_login_1</td>
-                    <td>None</td>
-                    <td>0.05s</td>
+                    <td>正确的账号密码</td>
+                    <td>0.016s</td>
                     
                         <td class="text-warning">失败</td>
                     
@@ -279,22 +279,17 @@ test_login_1 (testlogin.TestLogin)执行——>【失败】
 </pre>
                         
 
-                            <pre>  File "D:\software\work\anaconda\lib\unittest\case.py", line 59, in testPartExecutor
+                            <pre>  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 59, in testPartExecutor
     yield
 </pre>
                         
 
-                            <pre>  File "D:\software\work\anaconda\lib\unittest\case.py", line 591, in run
-    self._callTestMethod(testMethod)
+                            <pre>  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 605, in run
+    testMethod()
 </pre>
                         
 
-                            <pre>  File "D:\software\work\anaconda\lib\unittest\case.py", line 549, in _callTestMethod
-    method()
-</pre>
-                        
-
-                            <pre>  File "C:\Users\XDJ\AppData\Roaming\Python\Python310\site-packages\ddt.py", line 220, in wrapper
+                            <pre>  File "C:\Users\XDJ\AppData\Roaming\Python\Python36\site-packages\ddt.py", line 220, in wrapper
     return func(self, *args, **kwargs)
 </pre>
                         
@@ -306,6 +301,21 @@ test_login_1 (testlogin.TestLogin)执行——>【失败】
 
                             <pre>  File "D:\PycharmProjects\unittest_demo\Testcase\testlogin.py", line 44, in test_login
     self.assertEqual(case["expected"], res)
+</pre>
+                        
+
+                            <pre>  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+</pre>
+                        
+
+                            <pre>  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+</pre>
+                        
+
+                            <pre>  File "D:\software\work\anaconda\envs\pytorch\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
 </pre>
                         
 
@@ -323,8 +333,8 @@ test_login_1 (testlogin.TestLogin)执行——>【失败】
                     <td>2</td>
                     <td class="TestLogin">TestLogin</td>
                     <td>test_login_2</td>
-                    <td>None</td>
-                    <td>0.031s</td>
+                    <td>错误的账号密码</td>
+                    <td>0.019s</td>
                     
                         <td class="text-success">成功</td>
                     
