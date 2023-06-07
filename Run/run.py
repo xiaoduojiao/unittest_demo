@@ -1,7 +1,8 @@
 import sys
 sys.path.append(r"D:\PycharmProjects\unittest_demo")
+sys.path.append(r"D:\software\work\anaconda\envs\pytorch\Lib")
 import unittest
-import os
+
 from Common.handle_path import CASE_DIR,REPORT_DIR
 from Common.config import cfg
 
