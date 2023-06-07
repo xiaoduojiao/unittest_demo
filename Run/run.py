@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r"D:\PycharmProjects\package1")
+sys.path.append(r"D:\PycharmProjects\unittest_demo")
 import unittest
 import os
 from Common.handle_path import CASE_DIR,REPORT_DIR
