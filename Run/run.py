@@ -1,5 +1,7 @@
 import sys
-sys.path.append(r"D:\PycharmProjects\unittest_demo")
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
 sys.path.append(r"D:\software\work\anaconda\envs\pytorch\Lib")
 sys.path.append(r"D:\software\work\anaconda\envs\pytorch\Lib\site-packages")
 sys.path.append(r"C:\Users\XDJ\AppData\Roaming\Python\Python36\site-packages")
@@ -15,7 +17,7 @@ from Common.config import cfg
 # suite.addTest(loader.loadTestsFromTestCase(TestLogin))
 
 suite = unittest.defaultTestLoader.discover(CASE_DIR)
-print(111)
+
 # runner = unittest.TextTestRunner()
 # runner.run(suite)
 from unittestreport import TestRunner
